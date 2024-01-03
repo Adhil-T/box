@@ -1,0 +1,60 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 200px;
+    width: 200px;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: aqua;
+}
+
+.box1 {
+    position: relative;
+    left: 80px;
+    top: 40px;
+}
+
+.box2 {
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.box3 {
+    position: relative;
+    left: 80px;
+}
+
+.box4 {
+    position: relative;
+    left: 120px;
+    bottom: 40px;
+}
+
+.box5 {
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+}
+
+@media screen and (max-width:450px) {
+    .box {
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width:768px) {
+    .box {
+        background-color: red;
+    }
+}
